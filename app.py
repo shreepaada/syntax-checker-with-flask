@@ -22,7 +22,7 @@ def check_syntax():
         uploaded_file.save(filepath)
         
         # Full path to the CSyntaxChecker.exe
-        syntax_checker_path = r'C:\Users\shekh\OneDrive\Desktop\cdss mini again\CSyntaxChecker.exe'
+        syntax_checker_path = r'CSyntaxChecker.exe'
         
         # Execute the syntax checker and capture its output
         result = subprocess.run([syntax_checker_path, filepath], capture_output=True, text=True, shell=True)
