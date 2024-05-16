@@ -63,7 +63,6 @@ int main(){
 	
 	printf("\n\n\n\t\t\tKEYWORDS with LINE NUMBER\n\n\n");
 	keyword(str,totallen);
-	//protocheck(str,totallen);
 	printf("\n\n\n\t\t\tTOTAL NUMBER OF BUILTIN FUNCTIONS USED\n\n\n");
 	builtinfunction(str,totallen);
 	printf("\n\n\n\t\t\tTOTAL FUNCTIONS USED INCLUDING MAIN\n\n\n");
@@ -73,7 +72,6 @@ int main(){
 	
 	
 	printf("\n\n\n\t\t\tSYNTAX CHECK\n\n");
-	//printscan(str,totallen);
 	fcheck(str,totallen);
 	printf("\n\n\n\t\t\tTOTAL LINES IN PROGRAM\n\n\n");
 	printf("Total line in Program are: %d",totallen);
